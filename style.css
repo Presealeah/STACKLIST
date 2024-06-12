@@ -140,3 +140,121 @@
   color: #6b7280;
   cursor: pointer;
 }
+@media screen and (max-width: 1120px) {
+  .main-container {
+    width: 85%;
+    height: auto;
+    border: 1px solid #d7d7d7;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0rem;
+  }
+  .list-items-container {
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-container {
+    width: 90%;
+    height: auto;
+    border: 1px solid #d7d7d7;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem;
+  }
+  .list-items-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .list-item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0.8rem 0rem;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  .left-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.3rem;
+  }
+  .graph-container h1 {
+    font-size: 0.8rem;
+    color: #1e1e1e;
+  }
+  .complete-button-container button {
+    background-color: #f0fdf4;
+    font-size: 0.4rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    outline: none;
+    border: 1px solid #c4ebd2;
+    color: #15803d;
+    font-weight: 500;
+    border-radius: 0.5rem;
+  }
+  .bottom-left-container-child {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.2rem;
+  }
+  .date-container p {
+    font-size: 0.5rem;
+    color: #6b7280;
+  }
+  .dot-container p {
+    font-size: 0.5rem;
+    color: #6b7280;
+  }
+  .creator-container p {
+    font-size: 0.5rem;
+    color: #6b7280;
+  }
+  .right-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+  }
+  .view-project-button-container button {
+    background-color: #fff;
+    color: #1e1e1e;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    outline: none;
+    border: 1px solid #989898;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.5rem;
+  }
+}
